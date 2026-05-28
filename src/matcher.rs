@@ -238,7 +238,7 @@ fn structurally_matches(
         } else {
             // Multi-item: group source children by sub-pattern size
             let group_size = rep.sub_sentinels.len();
-            if matched_count % group_size != 0 {
+            if !matched_count.is_multiple_of(group_size) {
                 return false;
             }
             let num_groups = matched_count / group_size;
