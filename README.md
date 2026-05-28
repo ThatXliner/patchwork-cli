@@ -10,6 +10,13 @@
 cargo install patchwork-cli
 ```
 
+### Claude Code Plugin
+
+Install as a Claude Code plugin for AI-assisted code transformations:
+
+```bash
+claude mcp add patchwork -- patchwork-cli mcp
+```
 
 ## Usage
 
