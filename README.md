@@ -15,7 +15,7 @@ cargo install patchwork-cli
 Install as a Claude Code plugin for AI-assisted code transformations:
 
 ```bash
-claude mcp add patchwork -- patchwork-cli mcp
+/plugin install ThatXliner/patchwork
 ```
 
 ## Usage
