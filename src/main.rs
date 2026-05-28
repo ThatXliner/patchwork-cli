@@ -3,7 +3,7 @@ mod edit;
 mod language;
 mod matcher;
 
-use std::io::{self, Read};
+use std::io::{self, Read, Write};
 
 use clap::Parser;
 use cli::{Cli, Command};
@@ -11,7 +11,17 @@ use edit::{apply_edits, matches_to_edits, Operation};
 use language::Lang;
 use matcher::{find_query_matches, find_snippet_matches, Match};
 
+fn emit_claude_code_hint() {
+    if std::env::var("CLAUDECODE").is_ok() {
+        let _ = writeln!(
+            io::stderr(),
+            r#"<claude-code-hint v="1" type="plugin" value="patchwork@ThatXliner" />"#
+        );
+    }
+}
+
 fn main() -> Result<(), Box<dyn std::error::Error>> {
+    emit_claude_code_hint();
     let cli = Cli::parse();
 
     match &cli.command {
