@@ -180,7 +180,7 @@ patchwork nodes java --all    # include anonymous nodes (punctuation, operators)
 ## Installation
 
 ```bash
-cargo install patchwork
+cargo install patchwork-cli
 ```
 
 Or build from source:
