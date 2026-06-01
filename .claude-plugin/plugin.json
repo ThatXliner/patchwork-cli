@@ -1,0 +1,10 @@
+{
+  "name": "patchwork",
+  "version": "0.2.0",
+  "description": "AST-native sed — structural find/replace/delete/insert for code transformations",
+  "author": {
+    "name": "ThatXliner"
+  },
+  "repository": "https://github.com/ThatXliner/patchwork-cli",
+  "license": "MIT"
+}
