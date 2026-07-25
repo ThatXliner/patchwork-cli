@@ -64,7 +64,7 @@ Two reasons:
 
 2. **Vision: a tool that AI agents reach for first.** patchwork aims to be the simplest possible AST editor — so simple that an LLM can generate precise patchwork commands without thinking about YAML config, rule composition, or scanning modes. Whether it achieves this better than `ast-grep -p '...' -r '...'` is an open question, but the design surface is intentionally tiny.
 
-Realistically: if you need a mature, well-documented tool today, use ast-grep. If you're interested in the repetition syntax experiment or want to influence the design of a simpler alternative, watch this space.
+Realistically: if you need a mature, well-documented tool today, use ast-grep. If you're interested in a simpler alternative, patchwork.
 
 ## How it works
 
