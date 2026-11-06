@@ -10,6 +10,11 @@
   <img alt="License: MIT or Apache-2.0" src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-4A6FA5">
 </p>
 
+<p align="center">
+  <a href="brag-output/brag.mp4"><img src="brag-output/brag.jpg" alt="Watch the 22-second patchwork video" width="720"></a>
+  <br><sub><a href="brag-output/brag.mp4">▶ Watch the 22-second video</a></sub>
+</p>
+
 ## Installation
 
 ```bash
