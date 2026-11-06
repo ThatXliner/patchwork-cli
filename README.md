@@ -197,8 +197,8 @@ cargo install patchwork-cli
 Or build from source:
 
 ```bash
-git clone https://github.com/ThatXliner/patchwork
-cd patchwork
+git clone https://github.com/ThatXliner/patchwork-cli
+cd patchwork-cli
 cargo build --release
 ```
 
