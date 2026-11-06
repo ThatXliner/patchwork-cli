@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="brag-output/brag.mp4"><img src="brag-output/brag.jpg" alt="Watch the 22-second patchwork video" width="720"></a>
-  <br><sub><a href="brag-output/brag.mp4">▶ Watch the 22-second video</a></sub>
+  <a href="https://youtu.be/_21B9QOuusU"><img src="brag-output/brag.jpg" alt="Watch the 22-second patchwork video" width="720"></a>
+  <br><sub><a href="https://youtu.be/_21B9QOuusU">▶ Watch on YouTube</a></sub>
 </p>
 
 ## Installation
