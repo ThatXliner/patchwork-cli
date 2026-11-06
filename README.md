@@ -1,8 +1,19 @@
-# patchwork
+<p align="center"><img src="assets/logo.svg" alt="patchwork logo" width="120"></p>
 
-<img src="assets/logo.svg" alt="patchwork logo" width="100" align="right">
+<h1 align="center">patchwork</h1>
 
-**AST-native sed — find, replace, delete, and insert code by structure, not regex.**
+<p align="center"><strong>AST-native sed — find, replace, delete, and insert code by structure, not regex.</strong></p>
+
+<p align="center">
+  <a href="https://crates.io/crates/patchwork-cli"><img alt="crates.io" src="https://img.shields.io/crates/v/patchwork-cli?color=D68C5C"></a>
+  <img alt="13 languages" src="https://img.shields.io/badge/languages-13-6B9080">
+  <img alt="License: MIT or Apache-2.0" src="https://img.shields.io/badge/license-MIT%20%2F%20Apache--2.0-4A6FA5">
+</p>
+
+<p align="center">
+  <a href="brag-output/brag.mp4"><img src="brag-output/brag.jpg" alt="Watch the 22-second patchwork video" width="720"></a>
+  <br><sub><a href="brag-output/brag.mp4">▶ Watch the 22-second video</a></sub>
+</p>
 
 ## Installation
 
@@ -186,8 +197,8 @@ cargo install patchwork-cli
 Or build from source:
 
 ```bash
-git clone https://github.com/ThatXliner/patchwork
-cd patchwork
+git clone https://github.com/ThatXliner/patchwork-cli
+cd patchwork-cli
 cargo build --release
 ```
 
